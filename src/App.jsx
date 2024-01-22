@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import ContactList from './ContactList';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <>
+      <ContactList />
     </>
   );
 }
 
-export default App
+export default App;
