@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/register": "^7.23.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
